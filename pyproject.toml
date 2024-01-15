@@ -1,0 +1,14 @@
+[project]
+name = "logbook_example"
+version = "0.1.0"
+python = ">=3.9,<3.10"
+dependencies = [
+  "fastapi~=0.95.0",
+  "uvicorn~=0.21.0",
+  "strawberry-graphql[fastapi]~=0.190.0",
+  "logbook~=1.5.1",
+]
+
+[build-system]
+requires = ["hatchling==1.18.0"]
+build-backend = "hatchling.build"
